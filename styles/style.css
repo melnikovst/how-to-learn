@@ -11,7 +11,6 @@
 }
 
 .header {
-  border: 1px solid rebeccapurple;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -41,6 +40,7 @@
   font-size: 102px;
   font-weight: bold;
   z-index: 1;
+  margin: 0;
 }
 
 .header__subtitle {
@@ -53,6 +53,7 @@
   font-weight: normal;
   line-height: 25px;
   z-index: 1;
+  margin: 0;
 }
 
 .header__link {
@@ -102,6 +103,7 @@
   font-weight: normal;
   align-self: stretch;
   color: #2f80ed;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -110,6 +112,10 @@
   font-weight: normal;
   width: 80%;
   min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin: 0;
 }
 
 .two-columns__span-accent {
@@ -125,7 +131,6 @@
   align-items: center;
   justify-content: center;
   padding-top: 100px;
-  border: 1px solid purple;
   padding-bottom: 100px;
 }
 
@@ -136,7 +141,6 @@
   text-align: center;
   font-size: 60px;
   line-height: 1.15;
-  border: 1px solid black;
 }
 
 .section-subtitle {
@@ -148,7 +152,6 @@
   font-size: 24px;
   margin-bottom: 0;
   margin-top: 0;
-  border: 1px solid black;
 }
 
 .table {
@@ -157,13 +160,11 @@
   width: 1100px;
   list-style: none;
   flex-wrap: wrap;
-  border: 1px solid black;
   margin: 0 auto;
+  padding-left: 0;
 }
 
 .table__cell {
-  border: 1px solid black;
-  display: block;
   margin-top: 60px;
   margin-bottom: 0;
   margin-right: 0;
@@ -179,21 +180,13 @@
 }
 
 .table__text {
-  display: inline;
-  margin-top: 20px;
+  margin-bottom: 0;
   line-height: 1.2;
   font-size: 18px;
 }
 
-.table__text_span {
-  display: block;
-  bottom: 0;
-  padding-top: 20px;
-}
-
 .feynman {
   display: flex;
-  border: 1px solid purple;
   position: relative;
   align-items: center;
   text-align: center;
@@ -209,7 +202,6 @@
   width: 648px;
   line-height: 1.15;
   font-size: 120px;
-  border: 1px solid purple;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -219,8 +211,8 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  border: 1px solid purple;
   margin-top: 70px;
+  margin-bottom: 0;
 }
 
 .feynman__link {
@@ -231,8 +223,9 @@
   position: absolute;
   right: 48px;
   top: 50%;
-  border: 1px solid purple;
 }
+
+
 
 .feynman__background {
   position: absolute;
@@ -250,8 +243,7 @@
   justify-content: center;
   padding-top: 90px;
   padding-bottom: 90px;
-  border: 1px solid purple;
-  background-color: #000000;
+  background-color: #1f1f1f;
   overflow: hidden;
   position: relative;
   z-index: -2;
@@ -263,13 +255,11 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
-  border: 1px solid green;
   margin-bottom: 0;
 }
 
 
 .table__theme_dark {
-  border: 1px solid green;
   margin-left: auto;
   margin-right: auto;
 }
@@ -277,14 +267,12 @@
 .table__header_theme_dark {
   line-height: 1.15;
   font-size: 24px;
-  border: 1px solid green;
   margin-bottom: 20px;
 }
 
 .section-title__theme_dark {
   line-height: 1.15;
   font-size: 60px;
-  border: 1px solid green;
   color: white;
 }
 
@@ -292,13 +280,11 @@
   display: inline;
   line-height: 1.2;
   font-size: 18px;
-  border: 1px solid green;
 }
 
 .section-subtitle__theme_dark {
   line-height: 34px;
   font-size: 24px;
-  border: 1px solid green;
   color: white;
 }
 
@@ -315,11 +301,10 @@
   display: flex;
   justify-content: center;
   min-height: 350px;
-  background-color: #000000;
+  background-color: #1f1f1f;
 }
 
 .footer__columns {
-  border: 1px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -332,7 +317,6 @@
 .footer__column {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   justify-content: space-between;
   list-style: none;
   margin-top: 0;
@@ -367,12 +351,34 @@
   display: block;
   line-height: 30px;
   font-size: 18px;
+  list-style: none;
 }
 
 .footer__column_content_social {
   display: block;
   line-height: 30px;
   font-size: 18px;
+  list-style: none;
 }
 
+.footer-links {
+  text-decoration: none;
+  color: white;
+}
 
+.footer__column_link {
+  text-decoration: none;
+  color: white;
+
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
+}
+
+.logo__place_footer {
+  width: 183px;
+  height: 35px;
+}
