@@ -242,7 +242,6 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  z-index: -1;
   width: 867px;
   height: 637px;
   z-index: 1;
@@ -368,9 +367,6 @@
   text-decoration: none;
   color: white;
   list-style: none;
-  padding-top: 0;
-  padding-left: 0;
-  padding-bottom: 20px;
   margin: 0;
 }
 
