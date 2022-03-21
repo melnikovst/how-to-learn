@@ -61,8 +61,8 @@
 }
 
 .header__main-illustration {
-  position: absolute; 
-  object-fit: cover; 
+  position: absolute;
+  object-fit: cover;
   right: 0;
   bottom: 0;
   width: 765px;
