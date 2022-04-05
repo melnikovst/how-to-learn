@@ -1,3 +1,30 @@
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/cards__item/cards__item.css);
+@import url(../blocks/cards/cards__item/cards__image/cards__image.css);
+@import url(../blocks/cards/cards__item/cards__title/cards__title.css);
+@import url(../blocks/cards/cards__item/cards__description/cards__description.css);
+@import url(../blocks/rotation/rotation.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/video__iframes/video__iframes.css);
+@import url(../blocks/video/video__iframe/video__iframe.css);
+@import url(../blocks/oakley/oakley.css);
+@import url(../blocks/khan/khan.css);
+@import url(../blocks/khan/khan__book-container/khan__book-container.css);
+@import url(../blocks/khan/khan__author/khan__author.css);
+@import url(../blocks/khan/khan__book-pic/khan__book-pic.css);
+@import url(../blocks/khan/khan__container/khan__container.css);
+@import url(../blocks/khan/khan__quote-author-subline/khan__quote-author-subline.css);
+@import url(../blocks/khan/khan__quote-author/khan__quote-author.css);
+@import url(../blocks/khan/khan__quote/khan__quote.css);
+@import url(../blocks/khan/khan__title/khan__title.css);
+@import url(../blocks/khan/khan__buy-link/khan__buy-link.css);
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/resources__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/resources__link/resources__link.css);
+@import url(../blocks/resources/resources__logo/resources__logo.css);
+
+
 .page {
   min-width: 1100px;
   position: relative;
@@ -18,6 +45,7 @@
   display: flex;
   position: relative;
   background-color: #f2f2f2;
+  overflow: hidden;
 }
 
 .logo {
@@ -72,13 +100,16 @@
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
-  height: 568px;
+  max-height: 568px;
+  min-height: 500px;
   width: 568px;
   background-color: #2f80ed;
   position: absolute;
   right: 0;
   top: 64px;
+  animation: rotation 20s linear infinite;
 }
+
 
 .description {
   display: flex;
@@ -112,6 +143,7 @@
   font-weight: normal;
   width: 80%;
   min-width: 784px;
+  margin: 0;
 }
 
 .two-columns__paragraph {
@@ -140,6 +172,7 @@
   justify-content: center;
   padding-top: 100px;
   padding-bottom: 100px;
+  border: 1px solid black;
 }
 
 .section-title {
@@ -295,6 +328,7 @@
   position: absolute;
   right: -210px;
   top: 0;
+  animation: rotation 20s linear infinite;
 }
 
 .footer {

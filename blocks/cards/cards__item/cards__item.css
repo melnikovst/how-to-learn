@@ -1,0 +1,15 @@
+.cards__item {
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid green;*/
+    justify-content: center;
+    max-width: 240px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 100px;
+}
+
+.cards__item:nth-child(3) {
+    margin-right: 0;
+}
