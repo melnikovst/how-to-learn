@@ -1,7 +1,6 @@
 .cards__item {
     display: flex;
     flex-direction: column;
-    /*border: 1px solid green;*/
     justify-content: center;
     max-width: 240px;
     margin-top: 0;
