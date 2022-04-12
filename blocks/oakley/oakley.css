@@ -1,9 +1,9 @@
 .oakley {
-  display: flex;
-  position: relative;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  background-color: #f2f2f2;
-  padding-top: 160px;
-}
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    padding-top: 160px;
+  }
