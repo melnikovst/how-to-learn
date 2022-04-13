@@ -1,11 +1,8 @@
 .two-columns__paragraph {
     margin: 0;
-  }
-  
-  .two-columns__paragraph:first-child {
-    padding-bottom: 30px;
+    padding: 0 0 30px 0;
   }
   
   .two-columns__paragraph:last-child {
-    padding-top: 30px;
+    padding: 0;
   }
